@@ -1,0 +1,527 @@
+PS D:\cyber_agent> git log --oneline
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+:...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+:...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+:...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+
+(END)...skipping...
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+
+~
+~
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+
+~
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+
+~
+~
+~
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+~
+~
+~
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+~
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+~
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+~
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+48947e3 feat(agent): 完成第一阶段 ReAct 自动化资产扫描基础闭环
+(END)
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+690cfec feat(auth): 成功突破 CSRF 动态 Token 防御，但在受保护路径遭遇安全级别鉴权拦截
+:
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+972bdc8 refactor(tools): 弃用不稳定的自动Cookie匹配，改用底层Header直接手工拼装注入会话状态
+:
+b2f9db2 (HEAD -> master) fix(tools): 补齐定义缺失的cookie_jar，并焊死Referer头实现全线穿透
+32de07e fix(tools): 废弃会导致网址解析失败的URL替换，改用直接在Headers中手动挂载Cookie会话
+69bddc1 fix(tools): 引入底层域名自动纠偏算法，无损解决localhost与localhost.local的Cookie域锁定错位Bug
+78dae83 (debug-auth) test: 新增物理层身份认证专项单元测试程序
+34252e8 refactor(core): 固化总控大脑状态，准备迎接工具箱终极Token修复
+d5d501d fix(tools): 强行注入 Referer 请求头，粉碎靶场后端反爬虫来源校验
+1e3cd98 feat(core): 规范归档具备8轮思考空间与多参数容错清洗的总控大脑
+d599803 refactor(tools): 彻底重构为常驻内存静态会话模型，强力注入全线请求头
+1de33c6 fix(tools): 记录并固化CookieJar在带端口域名下的会话丢失受挫版本
+:
